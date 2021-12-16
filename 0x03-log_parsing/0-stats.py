@@ -66,5 +66,3 @@ if __name__ == '__main__':
             nbr_line += 1
     except KeyboardInterrupt:
         display()
-    if not sys.stdin:
-        display()
