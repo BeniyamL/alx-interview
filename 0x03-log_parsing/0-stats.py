@@ -44,7 +44,7 @@ def display():
 
 if __name__ == '__main__':
     """
-    entry point of the program
+    entry point of the program(main program)
     """
     f_size = 0
     nbr_line = 0
