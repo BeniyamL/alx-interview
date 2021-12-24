@@ -27,8 +27,10 @@ def validUTF8(data):
         """ determine the number of bytes just mask with some number to find
         the most significat digits
         """
+        """
         if num >= 255:
             return False
+        """
         if num & 128 == 0:
             bytes_nbr = 1
         elif num & 224 == 192:
